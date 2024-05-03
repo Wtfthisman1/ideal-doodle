@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(113.49deg, #984D38 -30.3% , #181E41 58.12%) no-repeat; 
+font-weight: 500;
+color: #fff;
+}
+
+header {
+    max-width: 1197px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:110px ;
+
+}
+.header__logo{
+    display: block;
+    width: 129px;
+    height: 50px;
+    background-image:url(../images/28267842_7.svg) ;
+    background-repeat: no-repeat;
+}
+.form{ 
+    position: relative;
+
+
+}
+.form__button{
+display: block;
+background-image: url(../images/icons8-поиск\ \(3\).svg);
+background-color: transparent;
+width: 20px;
+height: 20px;
+border: none;
+position: absolute;
+top: calc(50%-10px);
+left: px;
+
+}
+.form__input{
+width: 300px;
+background: rgba(255,255,255,0.1);
+border: none;
+border-radius: 10px;
+color: #fff
+
+
+}
+.form__input:focus {
+    outline: none;
+}
+
+.form__input ::placeholder{
+    color: #000000;
+
+}
+
+.header__list{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+
+
+}
+
+.header__link{
+    color: #fff;
+    text-decoration: none; 
+}
+.header__link_gradient{
+background:linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%) ;
+border-radius: 10px;
+padding: 10px;
+
+}
+.conteiner{
+
+max-width: 1197;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+
+    
+}
+.main{
+display: flex;
+justify-content: space-between;
+}
+
+.main__img{
+    width: 100%;
+
+}
+.main__text{
+    flex-basis: 490px;
+}
+.main__image{
+    flex-basis: calc(100%-490px);
+}
